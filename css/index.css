@@ -28,7 +28,6 @@ a{
     text-decoration: none;
     margin-right: 30px;
     vertical-align: middle;
-    transition: transform 150ms linear;
 }
 
 a::before{
@@ -37,9 +36,6 @@ a::before{
     height: 10px;
     width: 10px;
     margin-right: 10px;
-}
-.links:hover{
-    transform: scale(1.2);
 }
 
 
