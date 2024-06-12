@@ -1,13 +1,17 @@
-#button{
+.button{
     display: inline-block;
     background-color: #F7D002 ;
     padding: 18px 18px;
     box-shadow: 5px 5px 0 #4b4b4b;
     margin-right: 0;
     transition: transform 150ms linear;
+    font-size: 20px;
+    color: #f1f1f1;
+    text-decoration: none;
+
 }
 
-#button:hover{
+.button:hover{
     transform: scale(1.08);
     background-color: #ffea83;
     color: #cacaca;
