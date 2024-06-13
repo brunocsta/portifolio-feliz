@@ -16,6 +16,11 @@
     
 }
 
+.banner .box{
+    margin-bottom: 40px;
+
+}
+
 .banner .navigation{
     display: flex;
     flex-direction: row;
