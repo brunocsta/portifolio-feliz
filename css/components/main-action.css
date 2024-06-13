@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #f1f1f1;
@@ -8,7 +8,7 @@
     vertical-align: middle;
 }
 
-.action::before{
+.main-action::before{
     content: "";
     background-color: #F7D002;
     height: 10px;
