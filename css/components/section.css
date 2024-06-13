@@ -11,22 +11,3 @@
 }
 
 
-.lista-skills{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-between;
-    height: 480px;
-    width: 960px;
-    gap: 25px;
-}
-
-.skill{
-    display: flex;
-    align-items: baseline;
-}
-
-.icon{
-    max-height: 90px;
-    max-width: 100px;
-}
