@@ -1,13 +1,14 @@
 .section{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     background-color: #F7D002;
     height: 730px;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #7158e2;
+}
+
+.section .main-title{
+    margin-bottom: 100px;
 }
 
 
