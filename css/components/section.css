@@ -14,3 +14,7 @@
 .section.-bgBlack{
     background-color: #000;
 }
+
+.section.-bdFirst{
+    border-bottom: 10px solid #F7D002;
+}
