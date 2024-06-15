@@ -3,15 +3,23 @@
     font-family: "Press Start 2P", sans-serif;
     color: #fff;
     font-size: 25px;
+    align-items: center;
 
 }
 
 .skill-tech .icon{
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill-tech .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tech .title{
+    margin-bottom: 10px;
+    font-size: 23px;
+
 }
