@@ -1,0 +1,25 @@
+.main-section{
+    align-items: center;
+    background-color: #F7D002;
+    height: 730px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7158e2;
+}
+
+.main-section .main-title{
+    margin-bottom: 100px;
+}
+
+.main-section.-bgBlack{
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.main-section.-bdFirst{
+    border-bottom: 10px solid #F7D002;
+}
+
+.main-section.-bgPurple{
+    background-color: #7158e2;
+}
