@@ -19,3 +19,7 @@
 .section.-bdFirst{
     border-bottom: 10px solid #F7D002;
 }
+
+.section.-bgPurple{
+    background-color: #7158e2;
+}
