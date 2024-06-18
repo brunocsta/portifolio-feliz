@@ -16,3 +16,7 @@
     background-color: #ffea83;
     color: #cacaca;
 }
+
+.main-button.-full {
+    width: 100%;
+}
