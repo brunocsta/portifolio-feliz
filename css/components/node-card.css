@@ -31,7 +31,7 @@
     align-items: center;
     height: 140px;
     border: 5px solid #000;
-    background-color: #CEB02A;
+    background-color: #F00;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -39,8 +39,27 @@
 .node-card.-clean .logo{
     padding: 0px;
     border: none;
+
 }
 
 .node-card.-first .logo{
-    background-color: #F25A70;
+    background-color: #FFF;
+}
+
+.node-card .logo.-cea{
+    background: #fff;
+    border: 5px solid #000;
+}
+
+.node-card .logo.-brn0 {
+    display: flex;
+    justify-content: center;
+    background-color: #7158e2;
+    border: 5px solid #000;
+
+}
+
+.node-card .logo.-brn0 img {
+    height: 140px;
+    width: 140px;
 }
