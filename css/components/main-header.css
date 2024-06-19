@@ -9,8 +9,23 @@
 
 @media (max-width: 980px) {
     .main-header > .navigation {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        position: fixed;
+        background-color: #000;
+        top: 0; 
+        left: 0;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        padding: 16px;
     
+    }
+
+    .main-header .main-action {
+        display: flex;
     }
     
 }
