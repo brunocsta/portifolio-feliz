@@ -9,7 +9,7 @@
 
 @media (max-width: 980px) {
     .main-header > .navigation {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
