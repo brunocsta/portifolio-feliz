@@ -255,13 +255,13 @@
             <legend class="main-title -second">Contatos</legend>
 
             <label class="main-label" for="name">Nome</label>
-            <input class="main-input" id="name" type="text" required>
+            <input class="main-input" id="name" type="text" required maxlength="50" minlength="2">
 
             <label class="main-label" for="email">E-mail</label>
-            <input class="main-input" id="email" type="email" required>
+            <input class="main-input" id="email" type="email" required maxlength="150">
 
             <label class="main-label" for="message">Mensagem</label>
-            <textarea class="main-input -textarea" name="" id="message" required></textarea>
+            <textarea class="main-input -textarea" name="" id="message" required maxlength="500"></textarea>
             
             <button class="main-button -full" type="submit">Enviar</button>
         </form>
