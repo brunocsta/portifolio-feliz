@@ -14,7 +14,7 @@
         align-items: flex-start;
         gap: 20px;
         position: fixed;
-        background-color: #000;
+        background-color: #3A4042;
         top: 0; 
         left: 0;
         box-sizing: border-box;
@@ -26,7 +26,16 @@
 
     .main-header .main-action {
         display: flex;
+        padding: 15px;
+        transition: transform 100ms ease-in-out;
     }
+
+    .main-header .main-action:hover{
+        background-color: #576569;
+        width: 50%;
+        transform: scale(1.04);
+    }
+
     .main-header .icon-close {
         position: absolute;
         top: 16px;
@@ -39,4 +48,9 @@
     .main-header > .icon-menu {
         display: none;
     }
+
+    .icon-close {
+        display: none;
+    }
 }
+

@@ -3,9 +3,11 @@
     color: #fff;
     text-decoration: none;
     font-size: 35px;
+    text-shadow: 3px 3px 0 #000;
     transition: transform 200ms linear;
 }
 
 .icon-close:hover { 
     transform: scale(1.4);
 }
+
