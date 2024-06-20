@@ -10,3 +10,15 @@
 .main-input.-textarea{
     height: 320px;
 }
+
+.main-input:focus, .main-input.main-input.-textarea:focus { 
+    border-color: #3d3d3d !important;
+}
+
+.main-input:invalid, .main-input.main-input.-textarea:invalid { 
+    border-color: #ff3838;
+}
+
+.main-input:valid, .main-input.main-input.-textarea:valid { 
+    border-color: #3ae374;
+}
