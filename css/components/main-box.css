@@ -9,3 +9,9 @@
 .main-box .main-title{
     margin-bottom: 28px;
 }
+
+@media (max-width: 790px) {
+    .main-box {
+        position: relative;
+    }
+}
