@@ -17,3 +17,29 @@
 .skill-wrapper .progress-bar{
     width: 320px;
 }
+
+@media(max-width: 961px){
+    .skill-wrapper {
+        display: flex; /* Ativa o layout flexbox */
+        flex-wrap: wrap; /* Permite que os itens quebrem em linhas */
+        align-items: center;
+        justify-content: center;
+
+      }
+   
+    .right {
+        flex: 0; /* Ocupa o restante do espaço disponível na linha */
+    }
+
+    .skill-wrapper {
+        width: 860px;
+        margin-left: 140px;
+
+    }
+      
+    .skill-wrapper .skill-tech:nth-child(odd){
+        margin-right: 0px;
+    }
+    
+      
+}
