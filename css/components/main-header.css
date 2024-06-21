@@ -41,16 +41,21 @@
         top: 16px;
         right: 16px;
     }
+
+    
     
 }
 
-@media (min-width: 981px) {
+@media (min-width: 980px) {
+
+
     .main-header > .icon-menu {
         display: none;
     }
 
     .icon-close {
         display: none;
+
     }
 }
 

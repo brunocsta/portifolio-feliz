@@ -25,5 +25,12 @@
 
 .main-section.-bgPurple{
     background-color: #7158e2;
+    overflow: scroll;
 }
 
+
+@media (max-width:960px) {
+    .main-section.-bgPurple{
+        overflow: scroll;
+    }
+}

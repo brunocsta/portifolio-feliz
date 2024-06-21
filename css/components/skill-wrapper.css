@@ -41,5 +41,9 @@
         margin-right: 0px;
     }
     
+    .skill-wrapper .skill-tech{
+        width: 40%;
+        margin-bottom: 15px;
+    }
       
 }

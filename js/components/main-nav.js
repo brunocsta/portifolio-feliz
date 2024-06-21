@@ -8,6 +8,7 @@ mediaQuery.addEventListener('change', (Event) => {
     if (Event.matches){
         iconMenu.addEventListener('click', function() {
             nav.style = 'display: flex';
+            nav.style = 'width: 0px';
             carousel.style = 'display: none';
         });
 
