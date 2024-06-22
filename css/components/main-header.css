@@ -27,12 +27,13 @@
     .main-header .main-action {
         display: flex;
         padding: 15px;
+        width: fit-content;
         transition: transform 100ms ease-in-out;
     }
 
     .main-header .main-action:hover{
         background-color: #576569;
-        width: 50%;
+
         transform: scale(1.04);
     }
 
@@ -44,6 +45,14 @@
 
     
     
+}
+
+@media (max-width: 966px){
+    .main-header .icon-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }
 
 @media (min-width: 980px) {

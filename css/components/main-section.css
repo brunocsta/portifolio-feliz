@@ -29,8 +29,8 @@
 }
 
 
-@media (max-width:960px) {
+@media (min-width:960px) {
     .main-section.-bgPurple{
-        overflow: scroll;
+        padding-bottom: 0px;
     }
 }
